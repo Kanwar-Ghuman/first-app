@@ -18,3 +18,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default function HomePage() {
+
+  return (
+    <View style={styles.container}>
+        <Text>This is the home page</Text>
+        <StatusBar style = "auto" />
+    </View>
+  );
+}
